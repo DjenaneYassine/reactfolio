@@ -10,6 +10,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import { Skills } from "../components/skill/Skills";
 
 const About = () => {
 	useEffect(() => {
@@ -21,7 +22,7 @@ const About = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
+				<title>{`En savoir plus | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -42,11 +43,33 @@ const About = () => {
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
-									{INFO.about.title}
+									DJENANE YASSINE
 								</div>
 
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
+								</div>
+								<div className="homepage-articles mt-6">
+									<h2
+										className="project-title"
+										style={{ "padding-top": "0px" }}
+									>
+										Languages
+									</h2>
+									<Skills name="PHP" />
+									<Skills name="Symfony" />
+									<Skills name="Javascript" />
+									<Skills name="React.js" />
+									<Skills name="SQL" />
+									<Skills name="GIT" />
+									<Skills name="Tailwind" />
+									<h2 className="mb-4 mt-4 project-title">
+										Outils
+									</h2>
+									<Skills name="GitLab" />
+									<Skills name="Jira" />
+									<Skills name="Adobe Xd" />
+									<Skills name="MySql" />
 								</div>
 							</div>
 
@@ -60,14 +83,7 @@ const About = () => {
 										/>
 									</div>
 								</div>
-
-								<div className="about-socials">
-									<Socials />
-								</div>
 							</div>
-						</div>
-						<div className="about-socials-mobile">
-							<Socials />
 						</div>
 					</div>
 					<div className="page-footer">

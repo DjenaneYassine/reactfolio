@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Djenane Yassine",
+		name: "Djenane Y.",
+		email: "djenane.yassine73@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -16,15 +16,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Bonjour ! 👋🏻 <br> je développeur web symfony fullstak en freelance. ",
 		description:
 			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Passionné par le développement informatique, je m'investis pleinement dans chaque projet pour atteindre l'excellence. Mon parcours m'a permis d'acquérir une solide expertise dans différents langages de programmation, ainsi qu'une compréhension approfondie des concepts clés de la programmation. Mon objectif est de créer des solutions innovantes et efficaces, en m'appuyant sur les dernières technologies et les meilleures pratiques de développement. Explorez mes réalisations pour découvrir la diversité et la qualité de mes projets. Je suis convaincu que ma passion, ma détermination et mon engagement sont des atouts précieux pour répondre à vos besoins en développement informatique. N'hésitez pas à me contacter pour discuter de vos projets et voir comment je peux vous aider à les concrétiser.",
 	},
 
 	articles: {
@@ -35,47 +35,20 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "ToTheMoon",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+				"TotheMoon est une plateforme SaaS offrant des fonctionnalités en direct pour suivre les scores de tennis de table, ainsi qu'une page de statistiques avec des graphiques détaillées. De plus, il propose un service payant qui permet d'alerter les utilisateurs en temps réel.",
+			logo: "./symfony.png",
+			linkText: "Voir le projet",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 2",
+			title: "MovieNow",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+				"MovieNow est une plateforme web qui utilise l'API de themoviedb afin de découvrir les derniers films du moment et d'accéder à des informations détaillées, y compris une notation et une description pour chaque film.",
+			logo: "./react.png",
+			linkText: "Voir le projet",
 			link: "https://github.com",
 		},
 	],

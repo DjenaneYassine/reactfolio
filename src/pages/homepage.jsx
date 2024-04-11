@@ -19,9 +19,9 @@ import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import { Skills } from "../components/skill/Skills";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -37,7 +37,6 @@ const Homepage = () => {
 			let scroll = Math.round(window.pageYOffset, 2);
 
 			let newLogoSize = 80 - (scroll * 4) / 10;
-
 			if (newLogoSize < oldLogoSize) {
 				if (newLogoSize > 40) {
 					setLogoSize(newLogoSize);
@@ -46,6 +45,8 @@ const Homepage = () => {
 				} else {
 					setStayLogo(true);
 				}
+			} else if (window.innerWidth <= 768) {
+				setStayLogo(false);
 			} else {
 				setLogoSize(newLogoSize);
 				setStayLogo(false);
@@ -83,7 +84,7 @@ const Homepage = () => {
 				<NavBar active="home" />
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
-						<div style={logoStyle}>
+						<div className="logo" style={logoStyle}>
 							<Logo width={logoSize} link={false} />
 						</div>
 					</div>
@@ -92,11 +93,19 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									Bienvenue !<br /> Découvrez mes réalisations
+									et mes compétences
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									Créativité, Innovation, Excellence ! <br />
+									Explorez des sites web d'exception, conçus
+									avec passion et expertise. Que vous
+									recherchiez une présence en ligne mémorable
+									ou une transformation digitale, je suis là
+									pour transformer vos idées en réalité
+									numérique. Prêt à coder ensemble pour
+									façonner l'avenir du web ?
 								</div>
 							</div>
 
@@ -165,27 +174,33 @@ const Homepage = () => {
 								/>
 							</a>
 						</div>
-
-						<div className="homepage-projects">
+						<div className="border-b mt-4 md:hidden"></div>
+						<div className="homepage-projects mt-0 md:mt-2 md:mb-6">
 							<AllProjects />
 						</div>
-
+						<div className="border-b my-4 md:hidden"></div>
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
+								<h2
+									className="project-title"
+									style={{ "padding-top": "0px" }}
+								>
+									Languages
+								</h2>
+								<Skills name="PHP" />
+								<Skills name="Symfony" />
+								<Skills name="Javascript" />
+								<Skills name="React.js" />
+								<Skills name="SQL" />
+								<Skills name="GIT" />
+								<Skills name="Tailwind" />
+								<h2 className="mb-4 mt-4 project-title">
+									Outils
+								</h2>
+								<Skills name="GitLab" />
+								<Skills name="Jira" />
+								<Skills name="Adobe Xd" />
+								<Skills name="MySql" />
 							</div>
 
 							<div className="homepage-works">

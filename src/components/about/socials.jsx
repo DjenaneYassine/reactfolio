@@ -23,7 +23,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Twitter</div>
+					<div className="social-text">Twitter</div>
 				</a>
 			</div>
 
@@ -35,7 +35,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on GitHub</div>
+					<div className="social-text">GitHub</div>
 				</a>
 			</div>
 
@@ -51,7 +51,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on LinkedIn</div>
+					<div className="social-text">LinkedIn</div>
 				</a>
 			</div>
 
@@ -67,7 +67,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Instagram</div>
+					<div className="social-text"> Instagram</div>
 				</a>
 			</div>
 
@@ -82,7 +82,9 @@ const Socials = () => {
 							<FontAwesomeIcon icon={faEnvelope} />
 						</div>
 
-						<div className="social-text">{INFO.main.email}</div>
+						<div className="social-text">
+							djenane.yassine73@gmail.com
+						</div>
 					</a>
 				</div>
 			</div>

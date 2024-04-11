@@ -2,6 +2,7 @@
 
 .article {
 	display: flex;
+	border: 1px solid red;
 }
 
 .article a {

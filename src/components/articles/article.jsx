@@ -10,7 +10,7 @@ const Article = (props) => {
 
 	return (
 		<React.Fragment>
-			<div className="article">
+			<div className="article" style={"border: 1px solid red"}>
 				<div className="article-left-side">
 					<div className="article-date">{date}</div>
 				</div>

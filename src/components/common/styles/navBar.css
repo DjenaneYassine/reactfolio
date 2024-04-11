@@ -1,5 +1,12 @@
 @import "../../../data/styles.css";
 
+li > a, .menu{
+	font-size: 90%;
+	text-decoration: none;
+	color: var(--primary-color);
+	font-weight:bolder;
+}
+
 .nav-container {
 	margin: 0;
 	display: flex;
@@ -17,7 +24,7 @@
 }
 
 .nav-background {
-	width: 380px;
+	width: 360px;
 	height: 40px;
 	padding-left: 0%;
 	padding-right: 0%;
@@ -27,48 +34,46 @@
 }
 
 .nav-list {
+	width: 100%;
+	height: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	list-style: none;
 	align-items: center;
-	margin-left: -16px;
-	margin-right: 20px;
-	margin-top: 11px;
-}
 
-.nav-item {
-	font-weight: bold;
-	font-size: 80%;
 }
 
 .nav-item.active a {
 	color: var(--link-color) !important;
 }
 
-.nav-item a {
-	text-decoration: none;
-	color: var(--primary-color);
+.menu{
+	display: none;
 }
-
 .nav-item a:hover {
 	color: var(--link-color);
 	transition: color 0.3s ease-in-out;
 }
 
 @media (max-width: 600px) {
-	.navbar {
-		margin-left: 25%;
-		margin-right: 25%;
-		width: 80%;
-		font-size: 80%;
+	.nav-container{
+		justify-content: end;
+		margin-top: 5%;
+		margin-right: 5%;
 	}
 
-	.nav-background {
-		width: 80%;
-		height: 40px;
+	.navbar{
+		position: static;
 	}
 
-	.nav-item {
-		font-weight: bold;
+	.nav-background{
+		width: 100px;
+	}
+	.menu{
+		display: block;
+	}
+
+	li > a {
+		display: none;
 	}
 }

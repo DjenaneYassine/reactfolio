@@ -83,11 +83,6 @@
 		width: calc((100% - 90%) / 2);
 	}
 
-	.content-wrapper {
-		max-width: 90%;
-		padding-left: 10%;
-		padding-right: 10%;
-	}
 }
 
 @media (max-width: 1024px) {
@@ -104,10 +99,12 @@
 @media (max-width: 800px) {
 	.content-wrapper {
 		max-width: 90%;
-		margin: 0 auto;
-		padding: 0 10px;
 	}
 
+	.title{
+		font-size: 2rem;
+
+	}
 	.page-content:before,
 	.page-content:after {
 		display: none;

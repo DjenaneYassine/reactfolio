@@ -7,12 +7,9 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		twitter: "https://twitter.com/Naaasty11",
+		github: "https://github.com/DjenaneYassine",
+		linkedin: "https://www.linkedin.com/in/yassine-djenane-879a60254/",
 	},
 
 	homepage: {
@@ -40,7 +37,7 @@ const INFO = {
 				"TotheMoon est une plateforme SaaS offrant des fonctionnalités en direct pour suivre les scores de tennis de table, ainsi qu'une page de statistiques avec des graphiques détaillées. De plus, il propose un service payant qui permet d'alerter les utilisateurs en temps réel.",
 			logo: "./symfony.png",
 			linkText: "Voir le projet",
-			link: "https://github.com",
+			link: "https://github.com/DjenaneYassine/ToTheMoon.git",
 		},
 
 		{
@@ -49,7 +46,7 @@ const INFO = {
 				"MovieNow est une plateforme web qui utilise l'API de themoviedb afin de découvrir les derniers films du moment et d'accéder à des informations détaillées, y compris une notation et une description pour chaque film.",
 			logo: "./react.png",
 			linkText: "Voir le projet",
-			link: "https://github.com",
+			link: "https://github.com/DjenaneYassine/MovieNow.git",
 		},
 	],
 };

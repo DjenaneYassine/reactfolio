@@ -29,7 +29,7 @@ const Projects = () => {
 				/>
 			</Helmet>
 
-			<div className="page-content">
+			<div className="page-content h-full">
 				<NavBar active="projects" />
 				<div className="content-wrapper">
 					<div className="projects-logo-container">

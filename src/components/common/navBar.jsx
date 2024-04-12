@@ -57,16 +57,16 @@ const NavBar = (props) => {
 								<div className="border-b my-2"></div>
 								<a
 									className="text-sm font-bold text-zinc-600 py-2"
-									href="/about"
+									href="/projects"
 								>
-									En savoir plus
+									Project
 								</a>
 								<div className="border-b my-2"></div>
 								<a
 									className="text-sm font-bold text-zinc-600 py-2"
-									href="/projects"
+									href="/about"
 								>
-									Project
+									En savoir plus
 								</a>
 								<div className="border-b my-2"></div>
 								<a

@@ -2,7 +2,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
-
 }
 
 .all-projects-project {
@@ -12,6 +11,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+
 }
 
 @media (max-width: 600px) {

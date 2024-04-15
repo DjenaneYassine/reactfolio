@@ -71,7 +71,7 @@
 }
 
 @media (max-width: 600px) {
-	.project-container{
-		min-height: 200px;
+	.project-link{
+		margin-top: 5%;
 	}
 }
